@@ -1,0 +1,50 @@
+body {
+  background-color: green;
+}
+
+/* @font-face {
+  font-family: "Lato";
+  src: url("fonts/Lato-Regular.ttf");
+} */
+
+/* .important {
+  color: red;
+  font-size: 24px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  text-align: left;
+} */
+
+/* #title {
+  background-color: antiquewhite;
+} */
+
+a {
+  /* text-decoration-line: underline;
+  text-decoration-style: dashed;
+  text-decoration-color: red;
+  text-decoration-thickness: 3px; */
+
+  text-decoration: underline dashed red 3px;
+}
+/* .important {
+  background-color: bisque;
+} */
+
+/* P.important h1, */
+
+/* p {
+  color: red;
+} */
+
+/* div > p {
+  background-color: brown;
+  color: red;
+} */
+
+h3 + p {
+  color: red;
+}
+*/ h3 ~ p {
+  color: red;
+}

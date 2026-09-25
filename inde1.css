@@ -1,0 +1,21 @@
+h1 {
+  color: hsla(0, 100%, 50%, 0.5);
+}
+p {
+  background: linear-gradient(green, yellow, red);
+}
+h1 {
+  background: linear-gradient(to bottom, red, blue);
+}
+h2 {
+  background: linear-gradient(to top, red, blue);
+}
+h3 {
+  background: linear-gradient(to right, red, blue);
+}
+h4 {
+  background: linear-gradient(to left, red, blue);
+}
+h5 {
+  background-color: red;
+}

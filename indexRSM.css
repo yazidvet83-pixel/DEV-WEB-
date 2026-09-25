@@ -1,0 +1,66 @@
+body {
+  background-color: bisque;
+}
+/* @font-face {
+  font-family: "Lato";
+  src: url("fonts/Lato-Regular.ttf");
+} */
+.box1 {
+  background: linear-gradient(red, green, blue);
+  text-decoration: underline;
+  text-decoration-color: black;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 50;
+}
+.box2 {
+  background: linear-gradient(to bottom, red, green, blue);
+}
+
+/* h1 {
+  background: linear-gradient(to top, red, green, blue);
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: white;
+  text-decoration-thickness: 100;
+} */
+h2 {
+  background: linear-gradient(to bottom, red, green, blue);
+  text-decoration: overline;
+}
+h3 {
+  background: linear-gradient(to right, red, green, blue);
+  text-decoration: underline;
+  text-decoration-style: double;
+}
+h4 {
+  background: linear-gradient(to left, red, green, blue);
+  text-decoration: line-through;
+}
+p {
+  background-color: aqua;
+  color: brown;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 100;
+  text-align: center;
+}
+h5 {
+  background-color: grey;
+  color: white;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  text-align: right;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-decoration-color: brown;
+  text-decoration-thickness: 10px;
+}
+p + h1 {
+  background-color: blueviolet;
+  color: red;
+}
+h3 ~ p {
+  background-color: black;
+  color: white;
+}
